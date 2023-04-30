@@ -1,0 +1,10 @@
+#!/usr/bin/env bash
+#script that prints Blessed 3 times using until keyword
+
+i=1
+
+until [$i -gt 3]
+do
+	echo BLessed
+	((i++))
+done
