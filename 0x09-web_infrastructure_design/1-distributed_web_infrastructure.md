@@ -1,6 +1,6 @@
 # Distributed Web Infrastructure
 
-![Image of a distributed web infrastructure](1-distributed_web_infrastructure.jpg)
+![Image of a distributed web infrastructure](https://github.com/Pharmakarios1/alx-system_engineering-devops/blob/master/0x09-web_infrastructure_design/images/1-distributed_web_infrastructure.png)
 
 [Visit Board](https://lucid.app/lucidchart/35ac7565-7dea-46f5-a9a5-bc101e9f4bb7/edit?beaconFlowId=ED064484F3B05509&page=0_0&invitationId=inv_21938e6b-a94d-4993-a121-f5cf7287e5f4#)
 
