@@ -1,6 +1,6 @@
 # Simple Web Stack
 
-![Image of a simple web stack](0-simple_web_stack)
+![Image of a simple web stack](https://github.com/Pharmakarios1/alx-system_engineering-devops/blob/master/0x09-web_infrastructure_design/0-simple_web_stack.png)
 
 [Visit Board](https://lucid.app/lucidchart/e0ff75fb-9714-4069-a7d5-040f6bcd2a15/edit?shared=true&invitationId=inv_32aedb3b-9412-4666-8d55-fcb83b41069e&page=0_0#)
 
