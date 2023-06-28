@@ -25,4 +25,12 @@ ssh_options="-o StrictHostKeyChecking=no"
 # $username@$ip specifies the user and IP of the remote server we want to transfer the file to
 # :~ specifies the user's home directory on the remote server
 
-scp -i "$ssh_key" $ssh_options "$file_path" "$username@$ip":~
+scp -i "$ssh_key" $ssh_options "$file_path" "$username@$ip:~/"
+
+# checking if the transfer was successful
+if [ $? -eq 0 ]
+then
+	echo "FILE WAS TRANSFERED SUCCESSFULLY"
+else
+	echo "FILE TRANSFER FAILED"
+fi
