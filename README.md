@@ -8,7 +8,7 @@
 
 ![](https://static.javatpoint.com/tutorial/devops/images/devops-tutorial-4.png)
 
-	Below are some of his tools:
+	Below are some of it's tools:
 
 ![logo](https://tigosoftware.com/sites/default/files/2020-03/DevOps-engineer-job-roles-and-responsibilities.png)
 	
