@@ -1,14 +1,11 @@
 #!/usr/bin/env bash
-#script to perform 301 moved permanently
+# Script that configures a new Ubuntu machine to redirect a URL
 
 sudo apt-get update
 sudo apt-get install -y nginx
-sudo mkdir /var/www/html
-sudo touch /var/www/html/index.html
 
-echo "Hello world!" | tee /var/www/html/index.html
-string_replace="server_name _;\n\trewrite ^\/redirect_me http:\/\/github.com/pharmakarios1 permanent;"
-sudo sed -i "s/server_name _;/$string_replace/" /etc/nginx/sites-enabled/default
+echo "Hello World!" | sudo tee /var/www/html/index.html
+string_for_replacement="server_name _;\n\trewrite ^\/redirect_me https:\/\/github.com\/pharmakarios_1 permanent;"
+sudo sed -i "s/server_name _;/$string_for_replacement/" /etc/nginx/sites-enabled/default
 
 sudo service nginx restart
-
