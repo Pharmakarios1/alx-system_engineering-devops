@@ -36,14 +36,14 @@ defaults
 
 frontend 218715-web
     	bind *:80
-    	bind *:443 ssl crt /etc/ssl/www.codeharvest.tech/www.codeharvest.tech.pem
+    	bind *:443 ssl crt /etc/ssl/www.pharmakariosone.tech/www.pharmakariosone.tech.pem
 
     	# Redirect if HTTPS is not used
     	redirect scheme https code 301 if !{ ssl_fc }
 
-    	default_backend 202812-web_servers
+    	default_backend 208939-web_servers
 
-backend 218715-web_servers
+backend 208929-web_servers
     	balance roundrobin
-    	server web-01 54.146.78.93:80 check
-    	server web-02 3.85.168.10:80 check
+    	server web-01 100.26.121.162:80 check
+    	server web-02 54.160.84.193:80 check
