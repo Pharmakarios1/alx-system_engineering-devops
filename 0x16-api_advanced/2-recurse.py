@@ -4,6 +4,7 @@ This is a module that uses the get HTTP header method to get resources
 from the Reddit API
 """
 from requests import get
+after = None
 
 
 def recurse(subreddit, hot_list=[], after=None):
@@ -11,6 +12,8 @@ def recurse(subreddit, hot_list=[], after=None):
     This is a function that recursively returns the 10 top post from a
     subreddit using the REDDIT API
     """
+    global after
+
     if subreddit is None or type(subreddit) is not str:
         return None
     user_agent = {'User-Agent': 'Google Chrome Version 115.0.0.0'}
