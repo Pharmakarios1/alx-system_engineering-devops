@@ -8,8 +8,8 @@ WorkingDirectory=/home/ubuntu/AirBnB_clone_v4
 ExecStart=/home/ubuntu/.local/bin/gunicorn \
     --workers 3 \
     --bind 0.0.0.0:5003 \
-    --error-logfile /var/log/airbnb/airbnb-error.log \
-    --access-logfile /var/log/airbnb/airbnb-access.log \
+    --error-logfile /tmp/airbnb/airbnb-error.log \
+    --access-logfile /tmp/airbnb/airbnb-access.log \
     web_dynamic.2-hbnb:app
 
 [Install]
